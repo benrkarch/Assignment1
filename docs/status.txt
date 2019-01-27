@@ -1,1 +1,16 @@
+benrk@DESKTOP-3RSJ4B5 MINGW64 ~/Documents/2019 Spring/CEN4020/Assignment1 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .idea/Assignment1.iml
+        .idea/misc.xml
+        .idea/modules.xml
+        .idea/workspace.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
 
