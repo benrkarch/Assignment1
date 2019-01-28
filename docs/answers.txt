@@ -1,0 +1,75 @@
+----------------------------------
+a.
+
+benrk@DESKTOP-3RSJ4B5 MINGW64 ~/Documents/2019 Spring/CEN4020/Assignment1 (master)
+$ git push
+Enumerating objects: 15, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 1.62 KiB | 165.00 KiB/s, done.
+Total 11 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/benrkarch/Assignment1
+   3d373c9..b5da061  master -> master
+----------------------------------
+b.
+
+5
+git rev-list --count HEAD
+----------------------------------
+c.
+
+Thu Jan 10 16:45:38 2019 -0500
+git log .gitignore
+----------------------------------
+d.
+
+1. if you need to make changes to something while in the middle of other changes
+    (e.g. adding a new feature when you are told to amend a different feature,
+    use branch to commit without half functional code from new feature)
+
+2. create branches to test new ideas without affecting the main line of commits
+----------------------------------
+e.
+
+status shows the overall status of the repository, but log shows the full
+history(log) of the commits
+----------------------------------
+f.
+
+git log --follow weapons.h
+----------------------------------
+g.
+
+git log --all --grep='file'
+----------------------------------
+h.
+
+I. a subclass inheriting characteristics from a superclass
+    e.g. a truck inherits an engine, wheels, etc. from a car
+II. polymorphism is when something is two things at once like
+    how a square is a rectangle and a rhombus, but in OOP this
+    can be used to have overloaded functions where you can call
+    a function with the same name but with different parameter
+    lists
+III. encapsulation is the idea of encapsulating (hiding) information
+    inside of another construct. For example, someone creating an instance
+    of our truck class from earlier doesn't need to know how a combustion
+    engine works.
+----------------------------------
+i.
+
+The main difference is that with the integration manager,
+each developer is given two repositories, so they can push/pull
+freely from those. Otherwise, the dictator must approve of each push to
+the blessed directory, however the blessed repository will always be
+integrated in terms of various devs' changes.
+----------------------------------
+j.
+
+Because 100 developers is a lot of developers. It's very hard to keep
+100 people on the same page all the time, so the dictator model would
+be better since there would be multiple levels of developers helping to
+keep every change consistent and integrated with the main project.
+----------------------------------
