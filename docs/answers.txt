@@ -73,3 +73,63 @@ Because 100 developers is a lot of developers. It's very hard to keep
 be better since there would be multiple levels of developers helping to
 keep every change consistent and integrated with the main project.
 ----------------------------------
+RoleGame Output:
+
+karch@linprog6.cs.fsu.edu:~/Courses/CEN4020/Assignment1> a.out
+Common sword inflicts 50 when armor is 0
+Common sword inflicts 21 when armor is 29
+
+Common spear inflicts 40 when armor is 0
+Common spear inflicts 16.8 when armor is 29
+
+Simple hammer inflicts 25 when armor is 0
+Simple hammer inflicts 25 when armor is 29
+
+Crazy Random Sword inflicts 17 when armor is 0
+Crazy Random Sword inflicts 0 when armor is 29
+
+Gauntlet inflicts 75 when armor is 0
+Gauntlet inflicts 75 when armor is 29
+
+karch@linprog6.cs.fsu.edu:~/Courses/CEN4020/Assignment1> a.out
+Common sword inflicts 50 when armor is 0
+Common sword inflicts 21 when armor is 29
+
+Common spear inflicts 40 when armor is 0
+Common spear inflicts 16.8 when armor is 29
+
+Simple hammer inflicts 25 when armor is 0
+Simple hammer inflicts 25 when armor is 29
+
+Crazy Random Sword inflicts 29 when armor is 0
+Crazy Random Sword inflicts 3 when armor is 29
+
+Gauntlet inflicts 75 when armor is 0
+Gauntlet inflicts 75 when armor is 29
+
+karch@linprog6.cs.fsu.edu:~/Courses/CEN4020/Assignment1> a.out
+Common sword inflicts 50 when armor is 0
+Common sword inflicts 21 when armor is 29
+
+Common spear inflicts 40 when armor is 0
+Common spear inflicts 16.8 when armor is 29
+
+Simple hammer inflicts 25 when armor is 0
+Simple hammer inflicts 25 when armor is 29
+
+Crazy Random Sword inflicts 31 when armor is 0
+Crazy Random Sword inflicts 6 when armor is 29
+
+Gauntlet inflicts 75 when armor is 0
+Gauntlet inflicts 75 when armor is 29
+----------------------------------
+5.
+
+The prototype is using both of these principles. Polymorphism is
+achieved through virtual methods. Subclasses of the Weapons class
+must implement their own hit method. This achieves polymorphism
+because they are all weapons but in their own form. Encapsulation
+is provided by hiding information like how the WeaponFactory works.
+There is no need to declare a new weapon of some type because the
+factory will do this for you. Thus, encapsulating this process.
+----------------------------------
