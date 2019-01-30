@@ -7,8 +7,8 @@
 #include <string>
 #include <stddef.h> 
 #include "WeaponFactory.h"
-#include "CommonSword.h" 
-#include "CommonSpear.h"
+#include "CommonSword.cpp"
+#include "CommonSpear.cpp"
 
 WeaponFactory* WeaponFactory::instance = NULL;
 

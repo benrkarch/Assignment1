@@ -8,8 +8,8 @@
 
 #include <cstdlib>
 #include <iostream>
-#include "Weapon.h"
-#include "WeaponFactory.h"
+#include "Weapon.cpp"
+#include "WeaponFactory.cpp"
 
 using namespace std;
 
