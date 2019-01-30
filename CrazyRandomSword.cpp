@@ -2,9 +2,9 @@
 // Created by benrk on 1/29/2019.
 //
 
-#include "SimpleHammer.h"
+#include "CrazyRandomSword.h"
 
-double SimpleHammer::hit(double armor) {
+double CrazyRandomSword::hit(double armor) {
     /* initialize random seed: */
     srand (time(NULL));
 
