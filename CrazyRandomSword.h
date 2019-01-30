@@ -21,6 +21,8 @@ public:
 
     CrazyRandomSword() : Weapon("Crazy Random Sword",0.0) //Calls Weapon(name, hitpoints)
     {
+	srand(time(NULL));
+	hitPoints = rand() % 93 + 7; //number 7-100
     }
 
     virtual ~CrazyRandomSword() {};

@@ -9,12 +9,12 @@ double CrazyRandomSword::hit(double armor) {
     srand (time(NULL));
 
     /* generate damage 7 and 100: */
-    double damage = rand() % 93 + 7;
+    double damage = hitPoints;
 
     /*generate armor to ignore */
-    double ignore = rand() % (armor / 3) + 2;
-    if(ignore > (armor/3))
-        ignore = armor/3;
+    double ignore = 0.0;
+    if(armor >=2)
+        ignore = rand() % ((int)(armor / 3) - 2) + 2;
 
     damage = damage - (armor-ignore);
     if (damage < 0) {
